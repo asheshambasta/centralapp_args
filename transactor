@@ -1,0 +1,12 @@
+-n 
+TransactorAshesh
+-D 
+dbname=transactor user=calocal 
+--transactor-queue-url 
+https://eu-west-1.queue.amazonaws.com/899041400740/asheshlocal-table-booking
+--db-integration-events-max-retries 
+1 
+--db-integration-events-sns-topic-arn
+arn:aws:sns:eu-west-1:899041400740:AsheshTransactor"
+--business-domain 
+dev.centralapp.com

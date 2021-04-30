@@ -1,0 +1,13 @@
+aws-discover
+-N
+"TransAshesh" 
+-D
+dbname=transmission user=calocal
+--db-integration-events-max-retries 
+10 
+--db-integration-events-sns-topic-arn 
+arn:aws:sns:eu-west-1:899041400740:AsheshTransmission
+--inboundqueue-url 
+https://eu-west-1.queue.amazonaws.com/899041400740/asheshlocal-transmission
+--callback-sns-topic-arn 
+arn:aws:sns:eu-west-1:899041400740:AsheshTransmission aws-discover
